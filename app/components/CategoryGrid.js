@@ -249,7 +249,7 @@ const CategoryGrid = () => {
                           <IconButton onClick={() => handleQuantityChange(item.name, -1)}>
                             <RemoveIcon />
                           </IconButton>
-                          <Typography variant="body2">{quantities[item.name] || 0}</Typography>
+                          <Typography variant="body2" sx={{ color: 'black' }}>{quantities[item.name] || 0}</Typography>
                           <IconButton onClick={() => handleQuantityChange(item.name, 1)}>
                             <AddIcon />
                           </IconButton>
