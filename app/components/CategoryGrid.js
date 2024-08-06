@@ -8,7 +8,7 @@ import { collection, doc, setDoc, getDoc, getDocs, updateDoc, deleteDoc } from "
 import { itemsData } from '../data/items';
 import { firestore, auth } from '../firebase'; 
 import InventoryDetails from './InventoryDetails'; 
-import MyInventory from './MyInventory';
+import MyInventory from './myInventory';
 
 const ITEMS_PER_PAGE = 5;
 
